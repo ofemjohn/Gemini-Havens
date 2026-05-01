@@ -1,0 +1,62 @@
+:root {
+  --cream-50: #fcfaf6;
+  --cream-100: #f7f1e8;
+  --navy-900: #102739;
+  --navy-800: #19364d;
+  --gold-700: #b88d46;
+  --sage-700: #73846f;
+  --ink-soft: #556575;
+  --font-body:
+    'Avenir Next', 'Segoe UI', 'Helvetica Neue', 'Gill Sans', sans-serif;
+  --font-display:
+    'Iowan Old Style', 'Palatino Linotype', 'Book Antiqua', 'Georgia', serif;
+
+  font-family: var(--font-body);
+  line-height: 1.5;
+  font-weight: 400;
+  color: var(--ink-soft);
+  background:
+    radial-gradient(circle at top, rgba(203, 177, 121, 0.14), transparent 18%),
+    linear-gradient(180deg, #fffdf8 0%, #f5efe4 100%);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-padding-top: 120px;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background: transparent;
+}
+
+a,
+button,
+input,
+select,
+textarea {
+  -webkit-tap-highlight-color: transparent;
+}
+
+img {
+  max-width: 100%;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+::selection {
+  color: var(--cream-50);
+  background: rgba(16, 39, 57, 0.82);
+}
