@@ -20,7 +20,7 @@ import {
 export const navigation = [
   { label: 'Home', to: '/' },
   { label: 'About', to: '/about' },
-  { label: 'Services', to: '/services' },
+  { label: 'House Rules', to: '/house-rules' },
   { label: 'Contact', to: '/contact' },
 ]
 
@@ -209,7 +209,7 @@ export const proofPoints = [
 export const testimonials = [
   {
     quote:
-      'Gemini Havens immediately feels like a place that understands both urgency and dignity. That matters when we are making a referral.',
+      'Gemini Havens understands both urgency and dignity. That matters when making a referral.',
     name: 'Case Manager',
     role: 'Referral Partner',
   },
@@ -334,5 +334,28 @@ export const contactCards = [
     title: 'Our location',
     text: 'Serving the greater Atlanta area with strong referral relationships across the regional care network.',
     value: 'Atlanta, Georgia',
+  },
+]
+
+export const houseRules = [
+  {
+    title: 'Absolute Sobriety',
+    body: 'A zero-tolerance policy for drug and alcohol use. We maintain a safe, trigger-free sanctuary for everyone committed to recovery.',
+  },
+  {
+    title: 'Mandatory Meeting Attendance',
+    body: 'Residents must actively participate in recognized recovery meetings and support groups to foster continuous personal and spiritual growth.',
+  },
+  {
+    title: 'Curfew & Accountability',
+    body: 'Adherence to a structured curfew and check-in system to build routine, reliability, and peace of mind.',
+  },
+  {
+    title: 'Community Contribution',
+    body: 'Participation in daily chores and house maintenance is required to cultivate responsibility, respect, and a shared sense of home.',
+  },
+  {
+    title: 'Respect & Dignity',
+    body: 'We insist on a supportive, peaceful, and mutually respectful environment. Disruptive behavior will not be tolerated.',
   },
 ]

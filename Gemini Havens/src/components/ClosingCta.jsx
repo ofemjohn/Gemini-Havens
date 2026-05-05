@@ -19,8 +19,8 @@ function ClosingCta() {
             Contact admissions
             <ArrowRight size={18} />
           </Link>
-          <Link className="button button-secondary" to="/services">
-            Explore services
+          <Link className="button button-secondary" to="/house-rules">
+            House Rules
           </Link>
         </div>
       </div>

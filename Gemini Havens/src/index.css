@@ -1,23 +1,29 @@
 :root {
-  --cream-50: #fcfaf6;
-  --cream-100: #f7f1e8;
-  --navy-900: #102739;
-  --navy-800: #19364d;
-  --gold-700: #b88d46;
-  --sage-700: #73846f;
-  --ink-soft: #556575;
+  --cream-50: #ffffff;
+  --cream-100: #f8fafb;
+  --navy-900: #1a2e3b;
+  --navy-800: #2c4456;
+  --gold-700: #3d8b6e;
+  --sage-700: #5a7284;
+  --ink-soft: #607d8b;
+  --accent-warm: #e8c87a;
+  --border-light: rgba(26, 46, 59, 0.07);
+  --shadow-soft: rgba(26, 46, 59, 0.06);
+  --shadow-medium: rgba(26, 46, 59, 0.1);
   --font-body:
-    'Avenir Next', 'Segoe UI', 'Helvetica Neue', 'Gill Sans', sans-serif;
+    'Inter', -apple-system, 'Segoe UI', 'Helvetica Neue', sans-serif;
   --font-display:
-    'Iowan Old Style', 'Palatino Linotype', 'Book Antiqua', 'Georgia', serif;
+    'Playfair Display', 'Georgia', serif;
+  --radius-sm: 12px;
+  --radius-md: 18px;
+  --radius-lg: 24px;
+  --radius-xl: 32px;
 
   font-family: var(--font-body);
-  line-height: 1.5;
+  line-height: 1.65;
   font-weight: 400;
   color: var(--ink-soft);
-  background:
-    radial-gradient(circle at top, rgba(203, 177, 121, 0.14), transparent 18%),
-    linear-gradient(180deg, #fffdf8 0%, #f5efe4 100%);
+  background: #fafcfd;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -57,6 +63,6 @@ img {
 }
 
 ::selection {
-  color: var(--cream-50);
-  background: rgba(16, 39, 57, 0.82);
+  color: #fff;
+  background: var(--gold-700);
 }

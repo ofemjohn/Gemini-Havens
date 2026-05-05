@@ -3,7 +3,7 @@ import SiteLayout from './components/SiteLayout.jsx'
 import AboutPage from './pages/AboutPage.jsx'
 import ContactPage from './pages/ContactPage.jsx'
 import HomePage from './pages/HomePage.jsx'
-import ServicesPage from './pages/ServicesPage.jsx'
+import HouseRulesPage from './pages/HouseRulesPage.jsx'
 import './App.css'
 
 function App() {
@@ -12,7 +12,7 @@ function App() {
       <Route element={<SiteLayout />}>
         <Route path="/" element={<HomePage />} />
         <Route path="/about" element={<AboutPage />} />
-        <Route path="/services" element={<ServicesPage />} />
+        <Route path="/house-rules" element={<HouseRulesPage />} />
         <Route path="/contact" element={<ContactPage />} />
       </Route>
       <Route path="*" element={<Navigate to="/" replace />} />

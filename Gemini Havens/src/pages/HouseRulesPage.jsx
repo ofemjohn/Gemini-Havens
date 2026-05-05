@@ -5,17 +5,17 @@ import livingSpaceImg from '../assets/living-space.png'
 import {
   admissionsCriteria,
   faqItems,
-  serviceDetails,
+  houseRules,
   supportPillars,
 } from '../data/siteContent.js'
 
-function ServicesPage() {
+function HouseRulesPage() {
   return (
     <>
       <PageHero
-        eyebrow="Our Services"
-        title="Comprehensive support for placements, recovery, and long-term stability."
-        description="We provide structured sober living services designed to help referral partners place confidently and residents transition successfully into independent recovery."
+        eyebrow="House Rules"
+        title="A safe, supportive environment built on mutual respect and accountability."
+        description="Our house rules exist to protect the peace of our community and provide the structure necessary for lasting recovery and personal growth."
         compact
       />
 
@@ -51,15 +51,15 @@ function ServicesPage() {
       <AnimatedSection className="section-wrap">
         <section className="section">
           <div className="section-heading">
-            <span className="eyebrow">What we offer</span>
-            <h2>Everything you need to know about our recovery support programs.</h2>
+            <span className="eyebrow">Our Guidelines</span>
+            <h2>Core rules that maintain our sanctuary.</h2>
           </div>
 
           <div className="service-stack">
-            {serviceDetails.map((service) => (
-              <article key={service.title} className="service-row">
-                <h3>{service.title}</h3>
-                <p>{service.body}</p>
+            {houseRules.map((rule) => (
+              <article key={rule.title} className="service-row">
+                <h3>{rule.title}</h3>
+                <p>{rule.body}</p>
               </article>
             ))}
           </div>
@@ -103,4 +103,4 @@ function ServicesPage() {
   )
 }
 
-export default ServicesPage
+export default HouseRulesPage
