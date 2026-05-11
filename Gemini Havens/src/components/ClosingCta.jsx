@@ -1,10 +1,15 @@
 import { ArrowRight } from 'lucide-react'
-import { Link } from 'react-router-dom'
+import MagnetButton from './MagnetButton.jsx'
+import { motion } from 'framer-motion'
 
 function ClosingCta() {
   return (
     <section className="section">
-      <div className="closing-cta">
+      <motion.div
+        className="closing-cta"
+        whileHover={{ scale: 1.005 }}
+        transition={{ type: 'spring', stiffness: 200, damping: 30 }}
+      >
         <div>
           <span className="eyebrow">Ready for the next step</span>
           <h2>A supportive environment is just a phone call or click away.</h2>
@@ -15,15 +20,15 @@ function ClosingCta() {
           </p>
         </div>
         <div className="hero-actions">
-          <Link className="button button-primary" to="/contact">
-            Contact admissions
+          <MagnetButton to="/contact" className="button button-primary">
+            Contact Our Intake Team
             <ArrowRight size={18} />
-          </Link>
-          <Link className="button button-secondary" to="/house-rules">
+          </MagnetButton>
+          <MagnetButton to="/house-rules" className="button button-secondary">
             House Rules
-          </Link>
+          </MagnetButton>
         </div>
-      </div>
+      </motion.div>
     </section>
   )
 }

@@ -1,20 +1,30 @@
 import {
   BadgeCheck,
+  BookOpen,
   BriefcaseBusiness,
   Building2,
+  CalendarCheck,
+  CheckCircle2,
   Clock3,
+  ClipboardCheck,
   FileCheck2,
   Handshake,
   HeartHandshake,
+  HeartPulse,
   HousePlus,
   MapPin,
   MessageCircleMore,
   Phone,
+  PhoneCall,
   Scale,
+  Search,
   ShieldCheck,
   Sparkles,
+  Stethoscope,
   UserRoundCheck,
   Users,
+  UsersRound,
+  Zap,
 } from 'lucide-react'
 
 export const navigation = [
@@ -33,7 +43,7 @@ export const audienceContent = [
       'Gemini Havens helps discharge planners move quickly with a sober living environment built around accountability, responsiveness, and continuity.',
     highlights: [
       'Fast placement communication',
-      'Clear admission expectations',
+      'Clear intake expectations',
       'Support through the critical post-treatment phase',
     ],
   },
@@ -74,7 +84,7 @@ export const differenceCards = [
   {
     icon: Clock3,
     title: 'Fast Placement Momentum',
-    text: 'We prioritize quick communication and clear admission expectations to ensure a smooth transition from treatment to our sober living environment.',
+    text: 'We prioritize quick communication and clear intake expectations to ensure a smooth transition from treatment to our sober living environment.',
   },
   {
     icon: ShieldCheck,
@@ -124,8 +134,8 @@ export const placementSteps = [
   },
   {
     step: '02',
-    title: 'Admissions Responds',
-    text: 'Our admissions team quickly evaluates the fit and expectations, ensuring a smooth and clear pre-qualification process.',
+    title: 'Intake Team Responds',
+    text: 'Our intake team quickly evaluates the fit and expectations, ensuring a smooth and clear pre-qualification process.',
   },
   {
     step: '03',
@@ -266,7 +276,7 @@ export const faqItems = [
   {
     question: 'How do I submit a referral?',
     answer:
-      'You can submit a referral easily through our online form, give us a call directly at 404-692-7070, or send an email to joyce_humphery@geminihavens.com. We prioritize fast communication and professional coordination.',
+      'You can submit a referral easily through our online form, give us a call directly at 404-692-7070, or send an email to info@redeemershub.com. We prioritize fast communication and professional coordination.',
   },
   {
     question: 'What level of support do you provide?',
@@ -310,7 +320,7 @@ export const roleCards = [
     body: 'We are looking for a dedicated House Manager to oversee daily operations, ensure house rules are followed, and foster a supportive community atmosphere.',
   },
   {
-    title: 'Admissions Coordinator',
+    title: 'Intake Coordinator',
     type: 'Coming soon',
     body: 'Help streamline our intake process by coordinating with referral partners, hospitals, and potential residents to ensure smooth and timely placements.',
   },
@@ -319,7 +329,7 @@ export const roleCards = [
 export const contactCards = [
   {
     icon: Phone,
-    title: 'Call admissions',
+    title: 'Call Our Intake Team',
     text: 'Ideal for urgent placement conversations and quick referral coordination.',
     value: '404 692 7070',
   },
@@ -327,7 +337,7 @@ export const contactCards = [
     icon: MessageCircleMore,
     title: 'Email us',
     text: 'Best for follow-up details, coordination notes, and non-urgent intake questions.',
-    value: 'joyce_humphery@geminihavens.com',
+    value: 'info@redeemershub.com',
   },
   {
     icon: MapPin,
@@ -359,3 +369,124 @@ export const houseRules = [
     body: 'We insist on a supportive, peaceful, and mutually respectful environment. Disruptive behavior will not be tolerated.',
   },
 ]
+
+export const resourceCategories = [
+  {
+    icon: Stethoscope,
+    title: 'For Professionals',
+    description: 'Resources for hospitals, detox centers, and clinical teams looking to place patients in structured sober living.',
+    items: [
+      'Streamlined referral process',
+      'Fast intake coordination',
+      'Dedicated professional liaison',
+      'Placement documentation support',
+    ],
+  },
+  {
+    icon: FileCheck2,
+    title: 'Refer A Resident',
+    description: 'Submit a referral for a patient, client, or loved one. Our intake team responds within one business hour.',
+    items: [
+      'Online referral form',
+      'Phone referral: 404-692-7070',
+      'Email: info@redeemershub.com',
+      'Urgent placement available',
+    ],
+    cta: { label: 'Start a Referral', to: '/contact' },
+  },
+  {
+    icon: UsersRound,
+    title: 'Family Resources',
+    description: 'Guidance and support for families navigating the recovery journey with a loved one.',
+    items: [
+      'Understanding sober living',
+      'What to expect during placement',
+      'How to support recovery',
+      'Frequently asked questions',
+    ],
+  },
+  {
+    icon: Users,
+    title: 'Self-Referral',
+    description: 'If you or someone you know is ready for a structured, supportive next step after treatment, reach out directly.',
+    items: [
+      'Confidential intake process',
+      'No physician referral required',
+      'Same-day assessment available',
+      'Supportive community environment',
+    ],
+    cta: { label: 'Get Started', to: '/contact' },
+  },
+]
+
+/* ── Why Partner With Us (Pinnacle-inspired) ── */
+export const whyPartnerFeatures = [
+  {
+    icon: Zap,
+    title: 'Seamless Referral Experience',
+    description: 'We make sending a referral simple. One call or one form is all it takes to start the placement process.',
+  },
+  {
+    icon: Clock3,
+    title: 'Fast, Dependable Responses',
+    description: 'Our intake team responds to every referral within one business hour, ensuring no time is lost when someone is ready for the next step.',
+  },
+  {
+    icon: PhoneCall,
+    title: '24/7 Intake Access',
+    description: 'Our intake team is available around the clock to help facilitate placements quickly — day, night, or weekend.',
+  },
+  {
+    icon: Users,
+    title: 'On-the-Ground Support',
+    description: 'Our local team in Atlanta offers real-time, on-site support tailored to the needs of our community and referral partners.',
+  },
+  {
+    icon: MessageCircleMore,
+    title: 'Open Communication',
+    description: 'We prioritize clear and consistent communication, keeping referral partners informed and engaged at every stage of the process.',
+  },
+  {
+    icon: HeartPulse,
+    title: 'Continuity of Care',
+    description: 'Recovery doesn\'t end with placement. Our coordinated approach supports long-term success by maintaining structure and accountability through every phase.',
+  },
+]
+
+/* ── Intake Process Steps (Pinnacle Admissions-inspired) ── */
+export const intakeProcessSteps = [
+  {
+    step: 1,
+    icon: PhoneCall,
+    title: 'The First Call',
+    description: 'When you call, we listen and learn about the situation to see if Gemini Havens is the right fit. Our intake team is ready to answer questions and help find the right placement.',
+  },
+  {
+    step: 2,
+    icon: ClipboardCheck,
+    title: 'Pre-Intake Review',
+    description: 'We verify key details, confirm fit, and review expectations. Have any relevant documentation ready — but if not, we can still work with you to get the process started.',
+  },
+  {
+    step: 3,
+    icon: CalendarCheck,
+    title: 'Intake & Move-In',
+    description: 'Our team coordinates a smooth handoff. When the resident arrives, we provide a thorough orientation and introduce them to the community and house expectations.',
+  },
+  {
+    step: 4,
+    icon: HeartHandshake,
+    title: 'Recovery Begins',
+    description: 'The resident settles into structured daily living with peer support, accountability, and community engagement — the foundation for lasting recovery.',
+  },
+]
+
+/* ── Urgent Access Banner ── */
+export const urgentAccessBanner = {
+  eyebrow: '24/7 Intake Team',
+  headline: 'Move from uncertainty to a stable next step with one phone call.',
+  subtext: 'If you or someone you know is ready for structured sober living, our intake team can help right now.',
+  phone: '404-692-7070',
+  email: 'info@redeemershub.com',
+}
+

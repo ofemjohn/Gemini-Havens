@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion'
+import TiltCard from './TiltCard.jsx'
 
 const containerVariants = {
   hidden: { opacity: 0 },
@@ -26,16 +27,16 @@ function TestimonialGrid({ items }) {
       viewport={{ once: true, amount: 0.2 }}
     >
       {items.map((item) => (
-        <motion.article 
-          key={item.quote} 
+        <TiltCard
+          key={item.quote}
           className="testimonial-card"
           variants={itemVariants}
-          whileHover={{ y: -4, boxShadow: '0 12px 30px rgba(26, 46, 59, 0.08)' }}
+          tiltMax={5}
         >
-          <p className="testimonial-quote">“{item.quote}”</p>
+          <p className="testimonial-quote">"{item.quote}"</p>
           <strong>{item.name}</strong>
           <span>{item.role}</span>
-        </motion.article>
+        </TiltCard>
       ))}
     </motion.div>
   )

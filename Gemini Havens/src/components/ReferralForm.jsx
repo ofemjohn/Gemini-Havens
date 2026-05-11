@@ -114,7 +114,7 @@ function ReferralForm() {
         </div>
         <h3>Referral received!</h3>
         <p>
-          Thank you for reaching out. Our admissions team will respond within
+          Thank you for reaching out. Our intake team will respond within
           one business hour during operating hours.
         </p>
         <div className="rf-success-details">
@@ -124,7 +124,7 @@ function ReferralForm() {
           </div>
           <div className="rf-success-row">
             <Mail size={16} />
-            <span>Or email <strong>joyce_humphery@geminihavens.com</strong></span>
+            <span>Or email <strong>info@redeemershub.com</strong></span>
           </div>
         </div>
         <button
@@ -160,7 +160,7 @@ function ReferralForm() {
           </div>
           <div className="rf-success-row">
             <Mail size={16} />
-            <span>Email <strong>joyce_humphery@geminihavens.com</strong></span>
+            <span>Email <strong>info@redeemershub.com</strong></span>
           </div>
         </div>
         <button
@@ -345,7 +345,7 @@ function ReferralForm() {
                 name="notes"
                 value={formData.notes}
                 onChange={updateField}
-                placeholder="Share current level of care, any specific needs, or details that help admissions respond quickly."
+                placeholder="Share current level of care, any specific needs, or details that help our intake team respond quickly."
                 rows="5"
               />
             </label>
