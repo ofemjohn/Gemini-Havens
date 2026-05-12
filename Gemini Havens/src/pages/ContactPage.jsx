@@ -73,7 +73,7 @@ function ContactPage() {
                 <ArrowRight size={16} className="referral-option-arrow" />
               </motion.a>
               <motion.a
-                href="mailto:info@redeemershub.com"
+                href="mailto:intake@geminihavens.com"
                 className="referral-option-card"
                 variants={itemVariants}
                 whileHover={{ y: -6, boxShadow: '0 12px 32px rgba(61, 139, 110, 0.18)', borderColor: 'rgba(61, 139, 110, 0.25)' }}
@@ -89,7 +89,7 @@ function ContactPage() {
                 </motion.div>
                 <div>
                   <strong>Email</strong>
-                  <span>info@redeemershub.com</span>
+                  <span>intake@geminihavens.com</span>
                 </div>
                 <ArrowRight size={16} className="referral-option-arrow" />
               </motion.a>
@@ -126,7 +126,7 @@ function ContactPage() {
             </motion.a>
 
             <motion.a
-              href="mailto:info@redeemershub.com"
+              href="mailto:intake@geminihavens.com"
               className="contact-action-card"
               whileHover={{ x: 8, boxShadow: '0 8px 28px rgba(61, 139, 110, 0.15)', borderColor: 'rgba(61, 139, 110, 0.2)' }}
               whileTap={{ scale: 0.97 }}
@@ -137,7 +137,7 @@ function ContactPage() {
               </div>
               <div>
                 <strong>Email us</strong>
-                <span>info@redeemershub.com</span>
+                <span>intake@geminihavens.com</span>
               </div>
               <ArrowRight size={16} className="contact-action-arrow" />
             </motion.a>

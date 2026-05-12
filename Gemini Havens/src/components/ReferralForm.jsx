@@ -124,7 +124,7 @@ function ReferralForm() {
           </div>
           <div className="rf-success-row">
             <Mail size={16} />
-            <span>Or email <strong>info@redeemershub.com</strong></span>
+            <span>Or email <strong>intake@geminihavens.com</strong></span>
           </div>
         </div>
         <button
@@ -160,7 +160,7 @@ function ReferralForm() {
           </div>
           <div className="rf-success-row">
             <Mail size={16} />
-            <span>Email <strong>info@redeemershub.com</strong></span>
+            <span>Email <strong>intake@geminihavens.com</strong></span>
           </div>
         </div>
         <button

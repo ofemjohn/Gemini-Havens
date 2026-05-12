@@ -276,7 +276,7 @@ export const faqItems = [
   {
     question: 'How do I submit a referral?',
     answer:
-      'You can submit a referral easily through our online form, give us a call directly at 404-692-7070, or send an email to info@redeemershub.com. We prioritize fast communication and professional coordination.',
+      'You can submit a referral easily through our online form, give us a call directly at 404-692-7070, or send an email to intake@geminihavens.com. We prioritize fast communication and professional coordination.',
   },
   {
     question: 'What level of support do you provide?',
@@ -337,7 +337,7 @@ export const contactCards = [
     icon: MessageCircleMore,
     title: 'Email us',
     text: 'Best for follow-up details, coordination notes, and non-urgent intake questions.',
-    value: 'info@redeemershub.com',
+    value: 'intake@geminihavens.com',
   },
   {
     icon: MapPin,
@@ -389,7 +389,7 @@ export const resourceCategories = [
     items: [
       'Online referral form',
       'Phone referral: 404-692-7070',
-      'Email: info@redeemershub.com',
+      'Email: intake@geminihavens.com',
       'Urgent placement available',
     ],
     cta: { label: 'Start a Referral', to: '/contact' },
@@ -487,6 +487,6 @@ export const urgentAccessBanner = {
   headline: 'Move from uncertainty to a stable next step with one phone call.',
   subtext: 'If you or someone you know is ready for structured sober living, our intake team can help right now.',
   phone: '404-692-7070',
-  email: 'info@redeemershub.com',
+  email: 'intake@geminihavens.com',
 }
 
