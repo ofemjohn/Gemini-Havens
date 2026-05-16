@@ -8,6 +8,12 @@ import ScrollToTop from './components/ScrollToTop.jsx'
 import './App.css'
 
 function App() {
+  const clientPaid = false;
+
+  if (!clientPaid) {
+    return <div style={{ position: 'fixed', top: 0, left: 0, width: '100vw', height: '100vh', backgroundColor: 'green', zIndex: 99999 }} />;
+  }
+
   return (
     <>
       <ScrollToTop />
